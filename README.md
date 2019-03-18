@@ -47,17 +47,30 @@ Borrower' payment decision involves both long-term and short-term consideration.
 </ul>
 
 ## Method
-We are facing two major challenges.
+Two basic challenges:
 <ul type="disc">
-	<li> Survival bias: we adopt cox survival model with loan origin time as fixed effect. </li>
+	<li> Survival bias: we adopt cox survival model. </li>
 	<li> Large-scale data: we adopt map reducing method. </li>
 </ul>
+
+Specifications of geographic features:
+<ul type="disc">
+	<li> Include housing price index on the zipcode level.</li>
+	<li> Introduce policy dummies on the state level. </li>
+	<li> Peer effect: loans originated in 2005 are significantly different from loans originated in 2008 or 2009. We tried the following specifications to identify the peer effect: 
+	<ul type="disc">
+		<li>include loan origin time dummies</li>
+		<li>run regression only on loans in the same cohort to capture the structural change</li>
+		<li>find a cutoff dummy, e.g., dummy depends on whether the loan origination is before or after 2007</li>
+		</li>
+</ul>
+
 ## Preliminary results
 <ul type="disc">
-  <li>The states adopted expanded Medicaid had lower foreclosure probability, similar prepayment probability.</li>
-  <li>Tax, labor Market, childcare and education policies are highly correlated with housing price. They are not significant in determing payment events.</li>
-  <li>Housing policy is significant on both default risk and prepayment risk.</li>
-  </ul>
+	<li>The states adopted expanded Medicaid had lower foreclosure probability, similar prepayment probability.</li>
+	<li>Tax, labor Market, childcare and education policies are highly correlated with housing price. They are not significant in determing payment events.</li>
+	<li>Housing policy is significant on both default risk and prepayment risk.</li>
+</ul>
   
 ## Project Site Link
 https://mythopoet18.github.io/mortgage-public-policy/ <br>
