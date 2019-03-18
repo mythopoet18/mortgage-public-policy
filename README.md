@@ -11,9 +11,9 @@ We exam the following termination events and look for patterns related to the lo
   
 Borrower' payment decision involves both long-term and short-term consideration. We are more interested in the shot-term effect of the policy.
 <ul type="disc">
-	<li>[Long-term](https://placehold.it/15/c5f015/000000?text=+)
+	<li>[Long-term]
 		: permanent income hypothesis tells us that the monthly payment schedule should match the expected income stream. If the macroeconomic policies are different among states, borrowers would choose different houses and financial plans. Hence payment pattern would be different.</li>
-	<li>[Short-term](https://placehold.it/15/c5f015/000000?text=+)
+	<li>[Short-term]
 		: some temporary events may lead to default or prepayment. Some policies may avoid such payment events. For example, loan modification and TARF may help unemployed borrowers to avoid default; better healthcare plan may help to avoid default as well. </li>
 </ul>
 
