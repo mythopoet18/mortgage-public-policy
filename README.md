@@ -1,5 +1,3 @@
-Test
-
 ## The Question
 Does public policy affect homeowner's mortgage payment decision?<br>
 
